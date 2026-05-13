@@ -1,0 +1,56 @@
+body {
+    background-color: var(--background);
+}
+
+h1 {
+    color: var(--primary);
+}
+
+p {
+    color: var(--primary);
+}
+
+button {
+    background-color: var(--background);
+    border-radius: 10px;
+    margin: 1rem auto;
+    height: 100px;
+    width: 100px;
+    font-size: large;
+    border-color: var(--primary);
+    border-width: 2px;
+    cursor: pointer;
+    color: var(--primary);
+}
+
+.numberSection{
+    height: 20vh;  
+    border: 2px solid var(--primary);
+    border-radius: 10px;
+    padding-right: 1rem;
+    padding-bottom: 5px;
+    width: 80%;
+    align-content: end;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.numberSection p {
+    font-size:xx-large; 
+    width: 100%;
+    flex: 1;
+}
+
+.numberSection img {
+    text-align: right;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.theme {
+    border: 1px dashed var(--primary);
+}
